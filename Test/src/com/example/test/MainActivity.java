@@ -3,6 +3,7 @@ package com.example.test;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.Dialog;
+import android.util.Log;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
@@ -12,7 +13,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	
-
+		Log.i("test","test");
 	}
 
 	@Override
